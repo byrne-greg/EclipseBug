@@ -1,5 +1,5 @@
 # EclipseBug
-Demonstration of an eclipse bug
+Demonstration of an eclipse bug logged at https://bugs.eclipse.org/bugs/show_bug.cgi?id=560588
 
 ## Problem
 
@@ -21,3 +21,6 @@ Importing existing projects into eclipse do not respect the Project name as defi
 
 ### Expected 
 When the workspace is set to the top level directory of the projects, Eclipse should import using the project name rather than the subdirectory name of the project.
+
+## Workaround
+Ensure your workspace is at a level where imported projects are not nested one level deep (i.e. set your project at least two levels above the codebase)
