@@ -22,10 +22,10 @@ Importing existing projects into eclipse do not respect the Project name as defi
 When the workspace is set to the top level directory of the projects, Eclipse should import using the project name rather than the subdirectory name of the project.
 
 ![Expected](https://github.com/byrne-greg/EclipseBug/blob/master/README_img/Expected.png)
-*Expected projects for Import*
+*Expected projects for Import - 2 levels above project dir (e.g. `/EclipseBug/`)*
 
 ![Actual](https://github.com/byrne-greg/EclipseBug/blob/master/README_img/Actual.png)
-*Actual projects for Import*
+*Actual projects for Import - 1 levels above project dir (e.g. `/EclipseBug/myWorkspace`)*
 
 
 
