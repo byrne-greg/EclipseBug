@@ -1,4 +1,4 @@
-# EclipseBug
+# EclipseBug560588
 Demonstration of an eclipse bug logged at https://bugs.eclipse.org/bugs/show_bug.cgi?id=560588
 
 ## Problem
